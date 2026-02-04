@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rentalCompany SYSTEM "rental.dtd">
+<rentalCompany name="AutoRentals"> <!--Λείπει το rating το οποίο είναι υποχρεωτικό -->
+    <carList>
+        <car id="C3">
+            <carModel transmission="manual" fuel="diesel">Sedan X</carModel>
+            <capacity>4</capacity>
+            <featureList>
+                <feature>GPS</feature>
+            </featureList>
+            <priceList>
+                <price period="weekends">40.00</price>
+            </priceList>
+        </car>
+    </carList>
+
+    <offerList>
+        <offer carIDs="C3" discount="10%">
+            <validity>
+                <from>2025-07-01</from>
+                <!-- Λείπει το στοιχείο <to> το οποίο είναι υποχρεωτικό -->
+            </validity>
+        </offer>
+    </offerList>
+</rentalCompany>

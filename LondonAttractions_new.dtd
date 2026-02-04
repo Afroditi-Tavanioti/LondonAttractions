@@ -1,0 +1,174 @@
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, LondonAttractions+, must_sees?)>
+<!ELEMENT Title (#PCDATA)>
+
+<!-- Special Offers -->
+<!ELEMENT Special_Offers (Offer*)>
+<!ELEMENT Offer (Special_Offer, Offer_including)>
+<!ATTLIST Offer 
+    id ID #REQUIRED
+       name CDATA #REQUIRED>
+
+<!ELEMENT Special_Offer (Adult, child)>
+<!ATTLIST Special_Offer 
+    id ID #REQUIRED
+    days (1 | 2 | 3 | 4 | 5 | 6 | 7 | 10) #REQUIRED>
+
+<!ELEMENT Adult EMPTY>
+<!ATTLIST Adult 
+    unit_price CDATA #REQUIRED
+    price CDATA #REQUIRED>
+
+<!ELEMENT child EMPTY>
+<!ATTLIST child 
+    unit_price CDATA #REQUIRED
+    price CDATA #REQUIRED
+    age CDATA #FIXED "5-15">
+
+<!ELEMENT Offer_including (including_o+)>
+<!ELEMENT including_o (#PCDATA)>
+<!ATTLIST including_o 
+    id ID #IMPLIED>
+
+<!-- London Attractions -->
+<!ELEMENT LondonAttractions (Attraction+)>
+
+<!ELEMENT Attraction (URL, small_description, Attraction_title, extra_attraction_info, doing, includings?,Facts?, Reservations?, Knowing_before?, Note?, Address, operating?, Notice?, For_more?, FAQS?, getting_there?)>
+<!ATTLIST Attraction 
+    id_Attr ID #REQUIRED
+    booking (required | not_required) "not_required"
+    normal_value CDATA #IMPLIED
+    unit_value CDATA #FIXED "£"
+    in_offer IDREFS #IMPLIED>
+
+<!ELEMENT URL (#PCDATA)>
+<!ELEMENT small_description (#PCDATA)>
+<!ELEMENT Attraction_title (#PCDATA)>
+<!ELEMENT extra_attraction_info (spending_time)>
+<!ELEMENT spending_time (#PCDATA)>
+
+<!ELEMENT doing (value_d, Highlights?, Facts?)>
+<!ATTLIST doing 
+    title CDATA #FIXED "What you'll do">
+<!ELEMENT value_d (#PCDATA)>
+<!ELEMENT Highlights (Highlight*)>
+<!ELEMENT Highlight (#PCDATA)>
+
+<!ELEMENT Facts (Fact*)>
+<!ELEMENT Fact (#PCDATA)>
+
+<!ELEMENT includings (including+)>
+<!ATTLIST includings 
+    title CDATA #FIXED "What's included">
+<!ELEMENT including (#PCDATA | Not_in)*>
+
+<!ELEMENT Not_in (#PCDATA)>
+
+
+<!ELEMENT Reservations (value?, procedure?, booking_notes?)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT procedure (step+, value?)>
+<!ELEMENT step (#PCDATA)>
+
+<!ELEMENT booking_notes (#PCDATA)>
+
+<!ELEMENT Note (#PCDATA)>
+<!ATTLIST Note
+    title CDATA #FIXED "Please Note">
+
+<!ELEMENT Knowing_before ((Facilities | Getting_in | Busy_tip | note | Disclaimer | Accessibility)*)>
+
+<!ATTLIST Knowing_before 
+    title CDATA #FIXED "Know before you go">
+	
+<!ELEMENT Facilities (#PCDATA)>
+<!ELEMENT Getting_in (#PCDATA)>
+<!ELEMENT Busy_tip (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT Disclaimer (#PCDATA)>
+<!ELEMENT Accessibility (#PCDATA)>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address 
+    title CDATA #FIXED "Where you'll be">
+	
+
+<!ELEMENT operating (Monday?, Tuesday?, Wednesday?, Thursday?, Friday?, Saturday?, Sunday?, openings?, special_closings*, closing?)>
+
+<!ELEMENT Monday (Timing*)>
+<!ATTLIST Monday dayid ID #REQUIRED>
+
+<!ELEMENT Tuesday (Timing*)>
+<!ATTLIST Tuesday dayid ID #REQUIRED>
+
+<!ELEMENT Wednesday (Timing*)>
+<!ATTLIST Wednesday dayid ID #REQUIRED>
+
+<!ELEMENT Thursday (Timing*)>
+<!ATTLIST Thursday dayid ID #REQUIRED>
+
+<!ELEMENT Friday (Timing*)>
+<!ATTLIST Friday dayid ID #REQUIRED>
+
+<!ELEMENT Saturday (Timing*)>
+<!ATTLIST Saturday dayid ID #REQUIRED>
+
+<!ELEMENT Sunday (Timing*)>
+<!ATTLIST Sunday dayid ID #REQUIRED>
+
+<!ELEMENT Timing (#PCDATA)>
+
+<!ELEMENT openings (opening*)>
+<!ATTLIST openings
+    variable_dates CDATA #IMPLIED
+    for CDATA #IMPLIED
+    days IDREFS #IMPLIED
+>
+<!ELEMENT opening (#PCDATA)>
+<!ATTLIST opening
+    for CDATA #IMPLIED
+>
+	
+<!ELEMENT closing (days?, match_days*)>
+
+<!ATTLIST closing     
+    specific_dates CDATA #IMPLIED
+    days CDATA #IMPLIED>
+	
+<!ELEMENT special_closings (date*)>
+
+<!ELEMENT date EMPTY>
+<!ATTLIST date 
+    value CDATA #REQUIRED
+    note CDATA #IMPLIED>
+
+	
+	
+<!ELEMENT match_days (#PCDATA)>
+<!ELEMENT days (#PCDATA)>
+<!ATTLIST days 
+    dayid IDREFS #REQUIRED>
+
+<!ELEMENT Notice (#PCDATA)>
+<!ELEMENT For_more (#PCDATA)>
+<!ATTLIST For_more 
+    title CDATA #FIXED "Find out More">
+
+<!-- FAQs -->
+<!ELEMENT FAQS (FAQ*)>
+<!ELEMENT FAQ (question, answer)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
+
+<!-- Getting There -->
+<!ELEMENT getting_there (Buses?, Train?, Other?)>
+<!ATTLIST getting_there 
+    title CDATA #FIXED "How to get there">
+<!ELEMENT Buses (#PCDATA)>
+<!ELEMENT Train (#PCDATA)>
+<!ELEMENT Other (#PCDATA)>
+
+
+<!-- Must-Sees -->
+<!ELEMENT must_sees EMPTY>
+<!ATTLIST must_sees 
+    ids IDREFS #REQUIRED>

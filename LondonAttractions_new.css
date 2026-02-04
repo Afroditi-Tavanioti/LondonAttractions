@@ -1,0 +1,116 @@
+/* Εφαρμόζεται σε XML με χρήση xml-stylesheet */
+
+/* Γενικό στυλ σελίδας */
+London_Sightseeing {
+  display: block;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+  color: #333;
+}
+
+/* Εμφάνιση κάθε αξιοθέατου */
+Attraction {
+  display: block;
+  border: 2px solid #4682b4;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Τίτλος αξιοθέατου */
+Attraction_title {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2a5d9f;
+  margin-bottom: 10px;
+}
+
+/* Περιγραφή μικρή */
+small_description {
+  display: block;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Στοιχεία ως λίστα */
+URL,
+extra_attraction_info,
+doing,
+includings,
+Reservations,
+Knowing_before,
+Address,
+operating,
+category,
+environment,
+family_friendly,
+image {
+  display: block;
+  margin: 5px 0;
+  padding-left: 15px;
+  position: relative;
+}
+
+URL::before {
+  content: " Σύνδεσμος: ";
+  font-weight: bold;
+}
+
+extra_attraction_info::before {
+  content: " Χρόνος επίσκεψης: ";
+  font-weight: bold;
+}
+
+doing::before {
+  content: " Τι θα κάνεις: ";
+  font-weight: bold;
+}
+
+includings::before {
+  content: " Περιλαμβάνεται: ";
+  font-weight: bold;
+}
+
+Reservations::before {
+  content: " Κράτηση: ";
+  font-weight: bold;
+}
+
+Knowing_before::before {
+  content: " Σημαντικό πριν πας: ";
+  font-weight: bold;
+}
+
+Address::before {
+  content: " Διεύθυνση: ";
+  font-weight: bold;
+}
+
+operating::before {
+  content: " Ωράριο: ";
+  font-weight: bold;
+}
+
+category::before {
+  content: " Κατηγορία: ";
+  font-weight: bold;
+}
+
+environment::before {
+  content: " Περιβάλλον: ";
+  font-weight: bold;
+}
+
+family_friendly::before {
+  content: " Κατάλληλο για οικογένειες: ";
+  font-weight: bold;
+}
+
+image::before {
+  content: " Εικόνα: ";
+  font-weight: bold;
+}

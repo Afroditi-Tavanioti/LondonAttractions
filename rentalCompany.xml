@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rentalCompany SYSTEM "rental.dtd">
+<rentalCompany name="AutoRentals" rating="4.5">
+    <carList>
+        <car id="C1">
+            <carModel transmission="manual" fuel="diesel">Sedan X</carModel>
+            <capacity>5</capacity>
+            <featureList>
+                <feature>GPS</feature>
+                <feature extra_charge="yes">air conditioning</feature>
+            </featureList>
+            <priceList>
+                <price period="weekdays">50</price>
+                <price period="weekends">60</price>
+            </priceList>
+        </car>
+        <car id="C2">
+            <carModel transmission="automatic" fuel="diesel">SUV Y</carModel>
+            <capacity>4</capacity>
+            <featureList>
+                <feature>air conditioning</feature>
+            </featureList>
+            <priceList>
+                <price period="weekdays">40</price>
+                <price period="weekends">55</price>
+                <price period="holidays">70</price>
+            </priceList>
+        </car>
+    </carList>
+    <offerList>
+        <offer carIDs="C1 C2" discount="10%">
+            <validity>
+                <from>2025-05-01</from>
+                <to>2025-05-30</to>
+            </validity>
+        </offer>
+    </offerList>
+</rentalCompany>

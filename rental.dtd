@@ -1,0 +1,37 @@
+<!ELEMENT rentalCompany (carList, offerList)>
+<!ATTLIST rentalCompany
+    name CDATA #REQUIRED
+    rating CDATA #REQUIRED>
+	
+<!ELEMENT carList (car+)>
+<!ELEMENT car (carModel, capacity, featureList, priceList)>
+<!ATTLIST car id ID #REQUIRED>
+	
+<!ELEMENT carModel (#PCDATA)>
+<!ATTLIST carModel
+    transmission (automatic | manual) "automatic"
+    fuel (petrol | diesel | electric) "petrol">
+	
+<!ELEMENT capacity (#PCDATA)>
+
+<!ELEMENT featureList (feature*)>
+<!ELEMENT feature (#PCDATA)>
+<!ATTLIST feature
+    extra_charge (yes | no) "no">
+
+<!ELEMENT priceList (price+)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+    period (weekdays | weekends | holidays) #REQUIRED>
+
+<!ELEMENT offerList (offer*)>
+<!ELEMENT offer (validity)>
+<!ATTLIST offer
+    carIDs CDATA #REQUIRED
+    discount CDATA #REQUIRED>
+
+<!ELEMENT validity (from, to)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+
+

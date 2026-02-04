@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE London_Sightseeing SYSTEM "LondonAttractions_new2.dtd">
+
+
+<London_Sightseeing>
+
+   <Title>THE LONDON PASS</Title>
+   
+
+   <Special_Offers>
+		<Offer id="of1" name="The London Pass"><!--The best way to explore the majority of London's sights-->
+ 
+			<Special_Offer id="sp1" days="3">
+				<Adult unit_price="129" price="387" />
+				<child unit_price="64" price="128" age="5-15" />
+			</Special_Offer>
+		 
+			<Offer_including>
+				<including_o id="in1_of1">Free cancellation within 30 days</including_o>
+				<including_o id="in2_of1">Choose the attractions you want to see and visit them over 3 days</including_o>
+				<including_o id="in3_of1">Valid for 3 calendar days from first use</including_o>
+				<including_o id="in4_of1">Our handy app itinerary helps you plan the perfect trip</including_o>
+				<including_o id="in5_of1">There's no need to pick before you purchase. Just choose attractions as you go!</including_o>
+				<including_o id="in6_of1">If you don't save on your sightseeing, we'll refund you the difference!</including_o>
+				<including_o id="in7_of1">No need for multiple tickets - just scan the Go City app at each attraction</including_o>
+			</Offer_including>
+		</Offer>
+	 
+	 
+		<Offer id="of2" name="The London Pass Plus"><!--The complete London experience: access all our attractions plus four premium must-sees-->
+	 
+			<Special_Offer id="sp2" days="1">
+				<Adult unit_price="109" price="109" />
+				<child unit_price="79" price="158" age="5-15" />
+			</Special_Offer>
+	 
+			<Offer_including>
+				<including_o id="in1_of2">Free cancellation within 30 days</including_o>
+				<including_o id="in2_of2">Choose the attractions you want to see and visit them over a single day</including_o>
+				<including_o id="in3_of2">Valid for 1 calendar day from first use</including_o>
+				<including_o id="in4_of2">Our handy app itinerary helps you plan the perfect trip</including_o>
+				<including_o id="in5_of2">There's no need to pick before you purchase. Just choose attractions as you go!</including_o>
+				<including_o id="in6_of2">If you don't save on your sightseeing, we'll refund you the difference!</including_o>
+				<including_o id="in7_of2">No need for multiple tickets - just scan the Go City app at each attraction</including_o>
+			</Offer_including>
+ 
+		</Offer>
+   
+	</Special_Offers>
+
+
+
+	<LondonAttractions>
+		<Attraction id_Attr="id_at1" booking="required" normal_value="38.00" unit_value="£" in_offer="of2">
+			<URL>https://londonpass.com/en/london-attractions/view-from-the-shard</URL>
+			<small_description>Discover an architectural marvel and a symbol of modern London.</small_description>
+			<Attraction_title>The View from The Shard</Attraction_title>
+			
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+
+			<doing title="What you'll do">
+				<value_d>
+					From a 1970s office block to one of the world’s most distinguished buildings, ascend to London’s highest viewpoint at The View from The Shard.
+					Journey to a height of up to 800ft (244m), to the top of London’s tallest observation platform and premium visitor attraction, The View from The Shard.
+					Formerly known as the London Bridge Tower, 'The Shard' was designed by famed architect, Renzo Piano.
+					Piano, who is most famous for designing the Pompidou Centre in Paris, France, began designing The Shard in 2000.
+					His design was fuelled by the desire to create a modern building that stood out amongst the London Skyline without appearing too overbearing.
+					As such, the building resembles a large piece of glass pointing out of the ground, and thus, The Shard was aptly named.
+					Piano’s design has become a symbol of modern architecture in contemporary London.
+					It incorporates both aesthetically and structurally unique features, drawing inspiration from the spires of different London churches.
+					The building’s windows have a special glaze that reacts to light in a very intuitive way.
+					Depending on the season or time of day, the glass can reflect different intensities of light, casting unique luminosity.
+					The entire building process took over three years to complete.
+					In that time, the structure rose by 10 feet per day.
+					Many of the glass panels were put in place before the building reached its terminal height of 1000 feet.
+					By 2012, it officially became the tallest building in Europe.
+					The Shard offers a multitude of corporate, entertainment and dining facilities.
+					Floors 2 to 28 of the building are used as office space rental areas.
+					The 31st to 33rd floors are dedicated to restaurants.
+					The five-star hotel, Shangri-La takes up a staggering 18 levels, from the 34th floor to the 52nd Floor.
+					Some even call The Shard their home, as floors 53 to 65 are occupied by residential apartments.
+					The best viewing spot in The Shard is, of course, its pinnacle.
+					Enjoy unparalleled views over London from the building’s multi-floor observatory on the 68th to 72nd floors.
+				</value_d>
+			</doing>
+
+			<includings title="What's included">
+				<including>
+					Your pass includes entry to the indoor viewing platform on the 68th and 69th floor, the open-air Skydeck on the 72nd floor and a digital photo package, comprising four photos.
+				</including>
+				<including>
+					Once you’ve had your pass scanned, you’ll receive an exclusive £5 per person retail credit voucher for use in the on-site gift shop (subject to a minimum spend of £20 per person).
+				</including>
+			</includings>
+
+			<Reservations>
+				<value>You must pre-book your time slot online before visiting. Tickets can only be booked online.</value>
+				<procedure>
+					<step>(1) Follow this link to the specific The London Pass booking page on The View from The Shard’s website. You will be unable to book using your pass via the main website.</step>
+					<step>(2) Select the number of tickets you require. Remember, each person in your group must have their own pass.</step>
+					<step>(3) Select your visit date and a timeslot for entry. Your pass must be valid on your chosen visit date.</step>
+					<step>(4) Enter your pass numbers, separated with commas and then enter the promo code: GOCITY23</step>
+					<step>(5) Finally, enter your details so your entry voucher can be emailed to you.</step>
+				</procedure>
+			</Reservations>
+
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Simply show your pass and booked timeslot entry voucher at the main admissions desk and you’re good to go!
+				</Getting_in>
+			</Knowing_before>
+
+			<Address title="Where you'll be">Railway Approach, London, GB</Address>
+
+			<operating>
+				<Monday dayid="a1_d1"/>
+				<Tuesday dayid="a1_d2"/>
+				<Wednesday dayid="a1_d3">
+					<Timing>11AM–6PM</Timing>
+				</Wednesday>
+				<Thursday dayid="a1_d4">
+					<Timing>11AM–6PM</Timing>
+				</Thursday>
+				<Friday dayid="a1_d5">
+					<Timing>11AM–6PM</Timing>
+				</Friday>
+				<Saturday dayid="a1_d6">
+					<Timing>10AM–9PM</Timing>
+				</Saturday>
+				<Sunday dayid="a1_d7">
+					<Timing>11AM–6PM</Timing>
+				</Sunday>
+				<openings>
+					<!-- Αν χρειάζεται, αναφορά σε working day ids -->
+				</openings>
+				<closing>
+					<days dayid="a1_d1 a1_d2" />
+				</closing>
+			</operating>
+			
+			<family_friendly>3</family_friendly>
+			<environment>indoors</environment>
+			<category>Modern and Urban</category>
+			<Votes>
+			  <Vote>
+				<username>traveler1</username>
+				<stars>5</stars>
+				<comment>Great experience.</comment>
+			  </Vote>
+			</Votes>
+			<image>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/The_Shard_from_the_Sky_Garden_2015.jpg/1200px-The_Shard_from_the_Sky_Garden_2015.jpg</image>
+			
+		</Attraction>
+		
+		
+		<Attraction id_Attr="id_at2" normal_value="42.00" unit_value="£" in_offer="of2">
+			<URL>https://londonpass.com/en/london-attractions/london-eye</URL>
+		
+			<small_description>
+				Discover an architectural marvel and a symbol of modern London.
+			</small_description>
+		
+			<Attraction_title>The London Eye</Attraction_title>
+		
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+		
+			<doing title="What you'll do">
+				<value_d>
+				    Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
+				    Originally constructed as a temporary exhibit to celebrate the new millennium, the London Eye offers panoramic views of the city’s skyline that stretches as far as 25 miles on a clear day. That’s to Windsor Castle!
+				    Standing at an impressive 135 metres (443ft) high, the London Eye boasts 32 glass pods that represent each one of London’s boroughs. Step into the spacious capsule, that’s completely enclosed and climate-controlled, and be transported to the heights of the city.
+				    Spot the grandeur of Buckingham Palace, the clock tower housing Big Ben, and the gothic structures of the Houses of Parliament. Gaze out at other famous silhouettes such as the Shard, the winding River Thames, and the majestic dome of St. Paul’s Cathedral. These sights become even more magical at sunset or when night falls, and the city lights begin to twinkle.
+				</value_d>
+			</doing>
+		
+			<includings title="What's included">
+				<including>
+					Your pass gives you access to a flight on The London Eye. Soaring 135 metres above the city, the observation wheel offers an unrivaled aerial tour of the historic skyline.
+				</including>
+			</includings>
+		
+			<Reservations>
+				<value>
+				   You can book your spot up to 15 days in advance on the Go City Reservations Portal. You’ll need your order/pass number(s) and the email you used to purchase.
+				   Please note!
+				   Important: if you are travelling with children aged 2 to 4, although they won’t have a pass, they will still be charged admission by The London Eye. Tickets can be purchased at the self-service ticket kiosks in The London Eye main ticket office. Please allow extra time to purchase these tickets prior to your booked timeslot.
+				   Plans changed? No problem, in the Reservations Portal you can amend your booking up to 15 minutes prior to arrival.
+				</value>
+			</Reservations>
+		
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					With your confirmed Go City reservation, make your way to Entrance A, located outside the London Eye – you can’t miss it, it’s a bright pink gazebo. Here, you’ll have your pass scanned and validated. Keep your confirmation email handy in case you’re asked to show that as well. Once your pass has been validated, you’ll join the line for security before boarding your pod. Even with a confirmed timeslot, wait times from scanning to boarding can be up to 30 minutes.
+				</Getting_in>
+			</Knowing_before>
+		
+			<Address title="Where you'll be">
+				Riverside Building, County Hall, Westminster Bridge Rd, London SE1 7PB, United Kingdom
+			</Address>
+		
+			<operating>
+			    <openings>
+			    	<opening for="general">Opening hours vary. Check the The lastminute.com London Eye website for the most up-to-date hours.</opening>
+			    </openings>
+			</operating>
+
+		
+			<FAQS>
+				<FAQ>
+					<question>What should I know about the lastminute.com London Eye?</question>
+					<answer>
+						The lastminute.com London Eye stands out as the world’s largest cantilevered observation wheel with a height of 135 metres. It was designed by Marks Barfield Architects and opened to the public in 2000. The structure has received more than 85 awards recognising its achievements in tourism, architecture, and engineering.
+					</answer>
+				</FAQ>
+				<FAQ>
+					<question>What sights can be seen from the lastminute.com London Eye?</question>
+					<answer>
+						When you take a ride on the London Eye, you’ll have the opportunity to see prominent landmarks such as the Houses of Parliament, Buckingham Palace, the Shard and St Paul’s Cathedral. On clear days, your view may extend as far as Windsor Castle. You’ll also get a bird’s-eye-view of the Tate Modern, SEA LIFE Aquarium, and London’s Southbank area.
+					</answer>
+				</FAQ>
+			</FAQS>
+			
+			<family_friendly>3</family_friendly>
+			<environment>outdoors</environment>
+			<category>Modern and Urban, Fun and Entertainment</category>
+			<Votes>
+			  <Vote>
+				<username>traveler2</username>
+				<stars>4</stars>
+			  </Vote>
+			</Votes>
+			<image>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/London-Eye-2009.JPG/1200px-London-Eye-2009.JPG</image>
+			
+		</Attraction>
+		
+		
+		
+		<Attraction id_Attr="id_at3" booking="required" normal_value="45.00" unit_value="£" in_offer="of1">
+			<URL>https://londonpass.com/en/london-attractions/madame-tussauds-london</URL>
+		
+			<small_description>Join A-listers, musicians and royalty on the star-studded red carpet of Madame Tussauds.</small_description>
+			<Attraction_title>Madame Tussauds London</Attraction_title>
+			<extra_attraction_info>
+			   <spending_time>1-2 hours</spending_time>
+            </extra_attraction_info>
+			
+			<doing title="What you'll do">
+				<value_d>Lights, camera, action! It’s your turn to step into the spotlight at the world-famous Madame Tussauds London. Discover the magical mix of glamour and history that has been mesmerizing visitors since 1835. Come face-to-face with the world’s most recognizable people in the varied zones, all offering a unique line-up and experience. Meet the King, Queen, Prince William and Kate Middleton in the Royal Palace Experience. Check out the Impossible Festival to party backstage with singing superstars like Lady Gaga and the iconic Ziggy Stardust persona of David Bowie. Visit the Marvel Hall of Heroes to say hi to your favourite Avengers and more. Finish up at an out-of-this-world Star Wars display, where you can step inside the Millennium Falcon and see the stars of the franchise.</value_d>
+				<Highlights>
+					<Highlight>Spirit of London Ride ⇒ Journey through the history of the city in this entertaining and educational ride in a traditional black cab.</Highlight>
+					<Highlight>Skull Island ⇒ Shake the beast, hear his roar and unearth all of Skull Island’s secrets – a sensory walk-through experience.</Highlight>
+					<Highlight>Marvel Universe 4D ⇒ Fight alongside your heroes in this experience-based 3D film.</Highlight>
+					<Highlight>Chamber of Horrors ⇒ Get up close to some of Britain’s most notorious criminals as you uncover the secrets of the darker side of London’s past.</Highlight>
+				</Highlights>
+			</doing>
+			
+			<includings title="What's included">
+				<including>Explore eight zones with over 150 unique and lifelike figures.</including>
+			</includings>
+			
+			<Reservations>
+				<value>
+				    You can book your spot up to 15 days in advance on the Go City Reservations Portal. You’ll need your order/pass number(s) and the email you used to purchase.
+					Plans changed? No problem. In the Reservations Portal you can amend your booking up to 15 minutes prior to arrival.
+				</value>
+			</Reservations>
+			
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Just show your pass and booking confirmation email. Once you’ve had everything scanned, you’re good to go!
+				</Getting_in>
+				<Busy_tip>
+					Please arrive at the time of your booking to minimize waiting times.
+				</Busy_tip>
+				<note>
+					Photography is fully encouraged, and selfie sticks are generally permitted, but please be mindful of other visitors.
+				</note>
+			</Knowing_before>
+			
+			<Address title="Where you'll be">Marylebone Rd, London NW1 5LR, United Kingdom</Address>
+			
+			<operating>
+			    <openings>
+				    <opening for="general">The opening times can vary, so for the most up-to-date hours, we recommend checking the Madame Tussauds London website.</opening>
+			    </openings>
+			</operating>
+
+			<FAQS>
+				<FAQ>
+					<question>How long does Madame Tussauds in London take to look around?</question>
+					<answer>There is no strict time limit on your visit, so you can explore at your own pace. Most people spend about two to three hours looking at all the exhibits and enjoying the immersive experiences.</answer>
+				</FAQ>
+				<FAQ>
+					<question>Can I take pictures of the wax figures?</question>
+					<answer>Of course! Photography is fully encouraged, and selfie sticks are generally permitted, but please be mindful of other visitors.</answer>
+				</FAQ>
+				<FAQ>
+					<question>Is Madame Tussauds suitable for children?</question>
+					<answer>Definitely. Madame Tussauds London is family-friendly, and there are specific interactive exhibits and family-friendly zones to cater to younger visitors too.</answer>
+				</FAQ>
+				<FAQ>
+					<question>Can I buy gifts at Madame Tussauds London?</question>
+					<answer>Sure, there are souvenir shops within the museum where you can purchase various Madame Tussauds-themed products.</answer>
+				</FAQ>
+				<FAQ>
+					<question>Is there a cloakroom at Madame Tussauds London?</question>
+					<answer>Yes. There is a cloakroom available for use for a low price. Pushchairs can be stored there for free, as they are not allowed inside the museum.</answer>
+				</FAQ>
+				<FAQ>
+					<question>What else can I visit near Madame Tussauds London?</question>
+					<answer>Madame Tussauds is close to lots of other popular attractions and sites like Regent’s Park, north of London Zoo, and also a 20-minute walk from Oxford Street.</answer>
+				</FAQ>
+			</FAQS>
+			<getting_there title="How to get there">
+				<Buses>
+					Bus numbers 2, 13, 27, 30, 74, 113, 139, 189, 205, 274 and 453 all stop within a five-minute walk.
+				</Buses>
+				<Train>
+					Baker Street (Bakerloo, Circle, Jubilee, Metropolitan and Hammersmith and City lines) or Marylebone Station.
+				</Train>
+				<Other />
+			</getting_there>
+			
+			<family_friendly>3</family_friendly>
+			<environment>indoors</environment>
+			<category>Fun and Entertainment</category>
+			<Votes>
+			  <Vote>
+				<username>traveler3</username>
+				<stars>5</stars>
+				<comment>Perfect for families with children.</comment>
+			  </Vote>
+			</Votes>
+			<image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/WaxMuseumMadameTussaudsLondon.JPG/1200px-WaxMuseumMadameTussaudsLondon.JPG</image>
+			
+		</Attraction>
+
+
+		<Attraction id_Attr="id_at4" normal_value="10.00" unit_value="£" in_offer="of1 of2">
+			<URL>https://londonpass.com/en/london-attractions/household-cavalry-museum</URL>
+			
+			<small_description>
+				Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!
+			</small_description>
+			<Attraction_title>Household Cavalry Museum</Attraction_title>
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+			<doing title="What you'll do">
+				<value_d>
+				    The Household Cavalry Museum gets you up close to The King’s Mounted Bodyguard. Explore their history and discover more about their present-day role. The museum offers views into the working stables operated by the regiment and tells the story of The Household Cavalry through compelling personal testimonies, interactivity and rare artifacts.
+                    The Household Cavalry Museum located at the Horse Guards in Whitehall is one of the most historic buildings in the city. Dating back to 1750, the building is still the headquarters of the Army in London. Visitors to the museum learn about the traditions of the Household Cavalry and experience the daily ceremony of the King’s Life Guard that has remained unchanged since its founding in 1660. The museum’s location provides a unique backdrop that helps immerse visitors in history and deepen the visitor’s experience.
+				</value_d>
+				<Highlights>
+				    <Highlight>
+					Horse Guards Parade > Horse Guards Clock faces out onto Whitehall and Horse Guards Parade. You can’t miss it during your visit to the Household Cavalry Museum. Before Big Ben, it was the primary public clock in the Westminster area.
+				</Highlight>
+			</Highlights>
+			
+			</doing>		
+			<includings title="What's included">
+				<including>Pay nothing at the door—simply show your pass.</including>
+				<including>See troopers performing their daily duties in the stables.</including>
+				<including>Dress up like a cavalryman.</including>
+				<including>See hourly sentry changes, daily morning guard changes and afternoon inspections.</including>
+			</includings>
+			<Facts>
+				<Fact>
+					The afternoon inspection of guards and horses began in 1894 when Queen Victoria discovered the guards drinking and gambling instead of performing their protective duties. She doled out her punishment: the guards would be inspected daily.
+				</Fact>
+				<Fact>
+					In 1994, when the royal punishment officially expired, Queen Elizabeth II elected to persist with the daily inspections because by then they were a firmly established tradition.
+				</Fact>
+				<Fact>
+					Horse Guards Clock faces out onto Whitehall and Horse Guards Parade. You can’t miss it during your visit to the Household Cavalry Museum. Before Big Ben, it was the primary public clock in the Westminster area.
+				</Fact>
+			</Facts>
+
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Show your pass at the ticketing desk, inside the main entrance of the museum, to be scanned and validated. At busy times, you may be asked to wait for the next available time slot.
+				</Getting_in>
+			</Knowing_before>
+			
+			<Address title="Where you'll be">Horse Guards, Whitehall, London, GB</Address>
+
+			<operating>
+				<Monday dayid="a4_d1"/>
+				<Tuesday dayid="a4_d2"/>
+				<Wednesday dayid="a4_d3"/>
+				<Thursday dayid="a4_d4"/>
+				<Friday dayid="a4_d5"/>
+				<Saturday dayid="a4_d6"/>
+				<Sunday dayid="a4_d7"/>
+				
+				<openings>
+					<opening for="April to October">Daily from 10AM to 6PM (last admission 5PM)</opening>
+					<opening for="November to March">Wednesday to Sunday only from 10AM to 5PM (last admission 4PM)</opening>
+					<opening for="Ceremonial Closures">
+						Full list of dates and ceremonial closures can be found in: https://householdcavalry.co.uk/museum/museum-ceremonial-operating-hours/
+					</opening>
+					<opening for="Monday 24th June">1PM – 6PM (last admission at 5PM)</opening>
+					<opening for="Tuesday 25th June">1PM – 8PM (last admission at 5PM)</opening>
+					<opening for="Wednesday 17th July">2PM – 6PM (last admission at 5PM)</opening>
+					<opening for="Tuesday 25th June">1PM – 8PM (last admission at 5PM)</opening>
+				</openings>
+
+				<closing>
+					<match_days>Good Friday</match_days>
+					<match_days>London Marathon day</match_days>
+					<match_days>8, 14 and 16 May 2024</match_days>
+					<match_days>24 to 26 December</match_days>
+				</closing>
+			</operating>
+
+
+			<getting_there title="How to get there">
+				<Buses>
+					Numbers 11, 12, 159, 24, 3, 453, 53, 87 and 88 all stop close to the attraction throughout the day.
+				</Buses>
+				<Train>
+					Charing Cross Train or Underground - Bakerloo and Northern line (6 minute walk); Westminster Underground - Jubilee, District and Circle lines (6 minute walk)
+				</Train>
+				<Other />
+			</getting_there>
+			
+			<family_friendly>2</family_friendly>
+			<environment>indoors</environment>
+			<category>Historical and Cultural</category>
+			<Votes>
+			  <Vote>
+				<username>traveler4</username>
+				<stars>4</stars>
+			  </Vote>
+			</Votes>
+			<image>https://www.wyedean.com/wp-content/uploads/2019/05/Household-Cavalry.jpg</image>
+			
+		</Attraction>
+
+		
+		
+		<Attraction id_Attr="id_at5" normal_value="16.75" unit_value="£" in_offer="of2">
+			<URL>https://londonpass.com/en/london-attractions/queens-ice-skating-bowling</URL>
+			
+			<small_description>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_description>
+			
+			<Attraction_title>QUEENS Skate Dine Bowl</Attraction_title>
+			
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+			
+			<doing title="What you'll do">
+			    <value_d>
+				    Originally known as QUEENS Ice Club, QUEENS Skate Dine Bowl was opened back in 1930. Both it and The Grosvenor House Ice Skating Rink were conceived and created by architect Alfred Edwards. Since then, QUEENS has gone from strength to strength. It was the first ice rink to be used for ice skating televised by the BBC. More recently, it has featured on episodes of Made in Chelsea, and is also used as a practice rink for contenders on Dancing On Ice.
+				</value_d>
+				<Highlights>
+					<Highlight>Bowling → There are 12 bowling lanes, perfect for Queensway bowling with friends and family.</Highlight>
+					<Highlight>Incredible ice rink → Enjoy ice-skating, no matter the time of year! And you can even take to the ice in a go-kart for some Ice Karting, or try your hand at Curling.</Highlight>
+					<Highlight>Food and drink → For adults, they also have digital beer pong, and ‘Liquor Lanes’, which combine bowling and drinks. Liquor Lanes are separated from the 12 primary bowling lanes and can be booked for parties that include a private bar and sound system.</Highlight>
+					<Highlight>Arcades → They have lots of arcade cabinets with classic video games like Street Fighter 2 and Donkey Kong that everyone can enjoy.</Highlight>
+				</Highlights>
+			
+			</doing>
+			
+			<includings title="What's included">
+				<including>Your pass includes one session of ice-skating, also known as Queens ice skating.</including>
+				<including>
+					<Not_in>Arcade games, bowling and food.</Not_in>
+				</including>
+			</includings>
+			
+			<Reservations>
+				<procedure>
+					<step>
+						Please email info@queens.london with your pass number to request a date and time for your ice skating experience. The team at Queen's will reconfirm your booking.
+					</step>
+					<value>Please note: For large bookings of 10 or more people, please contact the Events Team at the venue by emailing events@queens.london.</value>
+				</procedure>
+			</Reservations>
+			
+			<Knowing_before title="Know before you go">
+				<Getting_in>Show your pass on arrival.</Getting_in>
+				<Busy_tip>This attraction is extremely popular and gets booked up fast. If this is one of your ‘must-sees’, please reserve your spot as soon as possible! You can book up to 10 days in advance of your visit. For the best experience we recommend visiting 2 hours after opening time.</Busy_tip>
+				<Disclaimer>For large bookings of 10 or more people, please contact the Events Team at the venue by emailing events@queens.london</Disclaimer>
+			</Knowing_before>
+			
+			<Address title="Where you'll be">17 Queensway, London, GB</Address>
+			
+			<operating>
+				<Monday dayid="a5_d1"/>
+				<Tuesday dayid="a5_d2"/>
+				<Wednesday dayid="a5_d3"/>
+				<Thursday dayid="a5_d4"/>
+				<Friday dayid="a5_d5"/>
+				<Saturday dayid="a5_d6"/>
+				<Sunday dayid="a5_d7"/>
+
+				<openings>
+					<opening for="Bowling">Daily: 10AM - 11PM</opening>
+					<opening for="Ice skating - Sunday, Monday, Wednesday">11AM - 1:30PM, 2PM - 4PM, 4:30PM - 6:30PM, 7PM - 10PM</opening>
+					<opening for="Ice skating - Tuesday, Thursday">11AM - 1:30PM, 2PM - 4PM, 4:30PM - 7PM, 7PM - 11PM</opening>
+					<opening for="Ice skating - Friday, Saturday">11AM - 1:30PM, 2PM - 4PM, 4:30PM - 6:30PM, 7PM - 11PM</opening>
+				</openings>
+			</operating>
+
+			
+			<getting_there title="How to get there">
+				<Buses>70, 94, 148, N207</Buses>
+				<Train>Bayswater or Queensway</Train>
+			</getting_there>
+			
+			<family_friendly>3</family_friendly>
+			<environment>indoors</environment>
+			<category>Fun and Entertainment</category>
+			<Votes>
+				<Vote>
+					<username>traveler5</username>
+					<stars>2</stars>
+				</Vote>
+			  <Vote>
+				<username>traveler6</username>
+				<stars>5</stars>
+			  </Vote>
+			</Votes>
+			<image>https://thenudge.com/wp-content/uploads/2001/09/queens-skate-dine-bowl-hero.jpg</image>
+		
+		</Attraction>
+		
+		
+		<Attraction id_Attr="id_at6" booking="required" normal_value="39.00" unit_value="£" in_offer="of2">
+			<URL>https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour</URL>
+			
+			<small_description>Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour.</small_description>
+			
+			<Attraction_title>1-Day Big Bus Hop-On Hop-Off Tour</Attraction_title>
+			
+			<extra_attraction_info>
+			   <spending_time>1-2 hours)</spending_time>
+            </extra_attraction_info>
+			
+			<doing title="What you'll do">
+				<value_d>
+				   Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour and tick off Central London’s top attractions and get to know the city a little better.
+				   If you’re ready to explore all that London has to offer, look no further than the Hop On Hop Off London tour. This London bus tour allows you to see all the iconic landmarks and attractions at your own pace. From the Tower of London to Buckingham Palace, the London Tour Bus ensures that you won’t miss a thing. With award-winning live guides and multilingual audio commentary, you can learn more about London’s rich history while taking in the sights. Don’t miss out on the opportunity to see the city in a whole new way with The London Pass®.
+				</value_d>
+				<Highlights>
+					<Highlight>Tower of London → A must-see London sight. Learn about the Tower’s wealth of history, dating back to the Norman Conquest. You’ll learn about the secrets of this iconic landmark.</Highlight>
+					<Highlight>Westminster Abbey → Hop off here and explore the country’s coronation church since the 11th century. See the kaleidoscopic stained-glass windows, old tombs and more.</Highlight>
+					<Highlight>Tower Bridge → This bridge is one of the most iconic in the UK and when you hop off here, you’ll see why. Explore the Victorian engine rooms and enjoy great river views.</Highlight>
+					<Highlight>Buckingham Palace → Home to King Charles III, this is one of the most iconic palaces left in the world and a must-see on any visit to the capital.</Highlight>
+					<Highlight>Trafalgar Square → This famed London landmark is one of the city’s top public hubs and hosts events, festival celebrations, rallies, and more. It’s also home to the National Gallery, one of the country’s most important art museums. Trafalgar Square also features a stone’s throw away from the Embankment, which is great for epic views along the river. Enjoy the ride with the London Big Bus Hop-On Hop-Off Tour!</Highlight>
+				</Highlights>
+			</doing>
+			
+			<includings title="What's included">
+				<including>One calendar day Hop-On Hop-Off bus tour ticket to explore the capital at your leisure.</including>
+				<including>See some of London’s best attractions.</including>
+			</includings>
+			
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Just show your pass when boarding. A bus tour is a great way to see the top sights around London, however, we advise against using bus tours as a mode of transportation around the city. For more efficient transport - we’d suggest using London’s public transport networks.
+				</Getting_in>
+				<Accessibility>
+					To avoid disappointment, Big Bus will need to confirm in advance whether your wheelchair can be accommodated on board. Please contact them in advance with information about your wheelchair, including an indication of the width and weight of the chair. Please note that mobility scooters cannot be accommodated on board buses due to size and weight.
+				</Accessibility>
+			</Knowing_before>
+			
+			<Address title="Where you'll be">
+				Tourist Bus Stop Westminster Bridge Road (eastbound), London, GB.
+			</Address>
+			
+			<operating>
+			    <openings>
+				    <opening for="general">For details of the route, stopping points, and days of operation, please visit the Big Bus website.</opening>
+			    </openings>
+			</operating>
+
+			
+			<FAQS>
+				<FAQ>
+					<question>Can I get off and rejoin the bus tour at any stop?</question>
+					<answer>Yes, you can hop on and off at any designated stop throughout the day.</answer>
+				</FAQ>
+				<FAQ>
+					<question>How long does the bus tour take to complete?</question>
+					<answer>The complete loop takes approximately two and a half hours, depending on traffic.</answer>
+				</FAQ>
+				<FAQ>
+					<question>Are the bus tours guided?</question>
+					<answer>There is no live commentary but in-seat audio guides are included as part of your experience. They are available in English, French, German, Italian and Spanish.</answer>
+				</FAQ>
+				<FAQ>
+					<question>Are the buses wheelchair accessible?</question>
+					<answer>To avoid disappointment, Big Bus will need to confirm in advance whether your wheelchair can be accommodated.</answer>
+				</FAQ>
+				<FAQ>
+					<question>What attractions and landmarks can I see on tour?</question>
+					<answer>You will pass by and have the opportunity to hop off at top landmarks such as the Tower of London, Buckingham Palace, and Big Ben.</answer>
+				</FAQ>
+			</FAQS>
+			
+			<getting_there title="How to get there">
+				<Train>Westminster.</Train>
+			</getting_there>
+			
+			<family_friendly>3</family_friendly>
+			<environment>outdoors</environment>
+			<category>Fun and Entertainment, Modern and Urban</category>
+			<Votes>
+			  <Vote>
+				<username>traveler7</username>
+				<stars>4</stars>
+			  </Vote>
+			</Votes>
+			<image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Arriva_London_buses_VLA157_%28LJ55_BSU%29_%26_RM54_%28LDS_279A%29%2C_Whitehall%2C_route_159%2C_9_December_2005.jpg/500px-Arriva_London_buses_VLA157_%28LJ55_BSU%29_%26_RM54_%28LDS_279A%29%2C_Whitehall%2C_route_159%2C_9_December_2005.jpg</image>
+		
+		</Attraction>
+		
+	
+		
+		<Attraction id_Attr="id_at7" normal_value="39.00" unit_value="£" in_offer="of1 of2">
+			<URL>https://londonpass.com/en/london-attractions/tower-of-london</URL>
+		
+			<small_description>
+				The Tower of London is one of the world’s most famous fortresses and has seen service as a royal palace, prison, armory and even a zoo.
+			</small_description>
+		
+			<Attraction_title>Tower Of London</Attraction_title>
+		
+			<extra_attraction_info>
+			   <spending_time>Up to two hours (&lt;2hr)</spending_time>
+            </extra_attraction_info>
+		
+			<doing title="What you'll do">
+				<value_d>
+				   See the world-famous Crown Jewels and meet the Beefeaters on a tour of the highlights at the Tower of London.Fortress, prison, royal mint, and now a tourist attraction. The Tower of London has seen many lives over the past centuries and persists to this day as a powerful symbol of British heritage.
+				   A seemingly permanent fixture on London's skyline, the question of why and when the Tower of London was built still prevails to this day...
+				</value_d>
+			</doing>
+		
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Enter via Middle Tower (opposite the Tower shop). Join the 'bought tickets' line and have your pass ready to be scanned by a member of staff.
+					Once validated, you will pass through security/bag check before being admitted through Middle Tower.Pass customers do not need to book Tower of London tickets in advance but please be aware that at busy times, you may be asked to wait for the next available time slot.
+					You may need to wait in line to pass through security checks.
+					The Crown Jewels are a major attraction at the Tower of London. Wait times to view them can be lengthy.
+				</Getting_in>
+			</Knowing_before>
+		
+			<Address title="Where you'll be">
+				Middle Tower, Tower of London, London, UK
+			</Address>
+		
+			<operating>
+				<Monday dayid="a7_d1"/>
+				<Tuesday dayid="a7_d2"/>
+				<Wednesday dayid="a7_d3"/>
+				<Thursday dayid="a7_d4"/>
+				<Friday dayid="a7_d5"/>
+				<Saturday dayid="a7_d6"/>
+				<Sunday dayid="a7_d7"/>
+
+				<openings>
+					<opening for="general">
+						Monday: 10:00 AM - 05:30 PM (Last entry: 03:30 PM)
+						Tuesday: 09:00 AM - 05:30 PM (Last entry: 03:30 PM)
+						Wednesday: 09:00 AM - 05:30 PM (Last entry: 03:30 PM)
+						Thursday: 09:00 AM - 05:30 PM (Last entry: 03:30 PM)
+						Friday: 09:00 AM - 05:30 PM (Last entry: 03:30 PM)
+						Saturday: 09:00 AM - 05:30 PM (Last entry: 03:30 PM)
+						Sunday: 10:00 AM - 05:30 PM (Last entry: 03:30 PM)
+					</opening>
+				</openings>
+
+				<closing>
+					<match_days>24 December</match_days>
+					<match_days>25 December</match_days>
+					<match_days>26 December</match_days>
+					<match_days>1 January 2025</match_days>
+				</closing>
+			</operating>
+
+		
+			<Notice>
+				Please note that from 6 May to 11 November 2025, the Tower of London will have a new, commemorative display of ceramic poppies to mark the 80th anniversary of the end of World War II. 
+				We anticipate that during this time, especially at the start and end of the display period, the Tower will be even more popular.
+				At busy times, you might be asked to wait for the next available timeslot.
+				Afternoons are generally less busy than morning visits.
+			</Notice>
+		
+			<For_more title="Find out More">
+				For more information, visit the Tower of London website.
+			</For_more>
+			
+			<getting_there title="How to get there">
+				<Other>Tower Hill</Other>
+			</getting_there>
+			
+			<family_friendly>3</family_friendly>
+			<environment>indoors</environment>
+			<category>Historical and Cultural</category>
+			<Votes>
+			  <Vote>
+				<username>traveler8</username>
+				<stars>5</stars>
+			  </Vote>
+			</Votes>
+			<image>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tower_of_London_from_the_Shard_%288515883950%29.jpg/1200px-Tower_of_London_from_the_Shard_%288515883950%29.jpg</image>
+			
+		</Attraction>
+		
+		
+		
+		<Attraction id_Attr="id_at8" normal_value="26.00" unit_value="£" in_offer="of1 of2">
+			<URL>https://londonpass.com/en/london-attractions/st-pauls-cathedral</URL>
+		
+			<small_description>
+				Designed by Sir Christopher Wren after the Great Fire of London, St Paul's Cathedral is one of London's most famous buildings.
+			</small_description>
+		
+			<Attraction_title>St Paul’s Cathedral</Attraction_title>
+		
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+		
+			<doing title="What you'll do">
+			    <value_d>
+				   From royal weddings and state funerals to famous burials and more, St Paul’s Cathedral has played a major role in London’s history.Situated near the River Thames, St Paul’s Cathedral is one of the capital’s most iconic buildings. 
+				   Sir Christopher Wren, one of Britain’s famed architects, designed the cathedral as part of a major rebuilding of the City after the 1666 Great Fire of London. The present St Paul’s Cathedral was built between 1675 and 1710 and is one of London’s most popular places of interest.
+				   Sitting on the highest point of the City of London, St Paul’s Cathedral has frequently been at the centre of national events throughout history from its consecration and surviving the Blitz to state funerals, royal weddings, and more. Step inside and discover the cathedral’s spectacular interiors, architectural design, and breath-taking panoramic views across London from the Stone and Golden Galleries.
+				</value_d>
+			</doing>
+			
+			<includings title="What's included">
+				<including>
+					View the Nave, the Dome, High Altar, Grand Organ and Crypt.
+					Your pass grants you access to the cathedral, plus a free audio tour.
+				</including>
+			</includings>
+		
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Entry to the cathedral is through the West Entrance. Security/bag checks are in place before entering. Inside, your pass will be scanned and validated at the admissions desks immediately in front of you.
+					You do not need to book but please check opening hours before visiting and take your pass with you.
+					Once inside the Cathedral, access to the Dome Galleries is usually available from 9.30am to 4.15pm (10am to 4.15pm on Wednesdays). Entrance to the Golden Gallery is subject to availability due to capacity controls in operation, and there may be time restrictions in place.
+					Children must be accompanied and supervised by an adult aged 18 or over in the Dome Galleries.
+					No bags or items larger than airline hand baggage (45cm x 30cm x 25cm, including handles, wheels, and pockets) may be brought into the cathedral. There is no cloakroom facility.
+				</Getting_in>
+			</Knowing_before>
+						
+			<Note title="Please Note">
+				With your pass, you'll receive a 10% discount on purchases of £5 and more in the St Paul’s shop!
+				Non-flash photography for personal use inside the cathedral is welcomed outside service times. Filming, tripods, monopods, and selfie sticks are not permitted.
+			</Note>
+		
+			<Address title="Where you'll be">
+				St. Paul's Cathedral, London, GB
+			</Address>
+		
+			<operating>
+				<Monday dayid="a8_d1"/>
+				<Tuesday dayid="a8_d2"/>
+				<Wednesday dayid="a8_d3"/>
+				<Thursday dayid="a8_d4"/>
+				<Friday dayid="a8_d5"/>
+				<Saturday dayid="a8_d6"/>
+				<Sunday dayid="a8_d7"/>
+
+				<openings>
+					<opening for="general">
+						Monday: 08:30 AM - 04:30 PM (Last entry: 04:00 PM)
+						Tuesday: 08:30 AM - 04:30 PM (Last entry: 04:00 PM)
+						Wednesday: 10:00 AM - 04:30 PM (Last entry: 04:00 PM)
+						Thursday: 09:00 AM - 04:30 PM (Last entry: 04:00 PM)
+						Friday: 09:00 AM - 04:30 PM (Last entry: 04:00 PM)
+						Saturday: 09:00 AM - 04:30 PM (Last entry: 04:00 PM)
+						Sunday: closed
+					</opening>
+				</openings>
+
+				<special_closings>
+					<date value="2025-05-08" note="Closes at 4:30PM (last admission 3PM)" />
+					<date value="2025-05-13" note="Closes at 4PM (last admission 2:30PM)" />
+					<date value="2025-05-28" note="Closes at 4:30PM (last admission 3:30PM)" />
+					<date value="2025-06-17" note="Opens at 1PM" />
+					<date value="2025-06-21" note="Closes at 12:45PM (last admission 11:30AM)" />
+					<date value="2025-06-28" note="Closes at 1PM (last admission 11:30AM)" />
+					<date value="2025-07-03" note="Opens at 2PM" />
+					<date value="2025-07-07" note="Opens at 1PM" />
+					<date value="2025-07-11" note="Opens at 11AM" />
+					<date value="2025-10-08" note="Closes at 1:30PM (last admission 12PM)" />
+					<date value="2025-10-09" note="Closes at 3:30PM (last admission 2:30PM)" />
+				</special_closings>
+
+				<closing>
+					<match_days>24 December</match_days>
+					<match_days>25 December</match_days>
+					<match_days>26 December</match_days>
+					<match_days>1 January 2025</match_days>
+				</closing>
+			</operating>
+
+
+			<Notice>
+				Opening hours may vary when the cathedral is holding special services or events. Please check the St Paul's Cathedral calendar for details.
+				The cathedral is only open for worship on Sundays.
+			</Notice>
+		
+			<For_more title="Find out More">
+				For more information, visit the St Paul’s Cathedral website.
+			</For_more>
+			
+			<getting_there title="How to get there">
+				<Train>London Underground: take the Central line. Get off at St Paul's train station. Take District and Circle lines. Get off at Mansion House or Blackfriars train station. Take the Central, Northern, Waterloo and City or DLR lines. Get off at Bank train station.</Train>
+			</getting_there>
+			
+			<family_friendly>2</family_friendly>
+			<environment>indoors</environment>
+			<category>Religious and Spiritual, Historical and Cultural</category>
+			<Votes>
+			  <Vote>
+				<username>traveler9</username>
+				<stars>4</stars>
+			  </Vote>
+			</Votes>
+			<image>https://upload.wikimedia.org/wikipedia/commons/c/cb/St_Pauls_aerial_%28cropped%29.jpg</image>
+			
+		</Attraction>
+		
+		
+		
+		<Attraction id_Attr="id_at9" booking="required" normal_value="16.00" unit_value="£" in_offer="of1 of2">
+			<URL>https://londonpass.com/en/london-attractions/london-tower-bridge-exhibition</URL>
+		
+			<small_description>
+				Tower Bridge has stood over the River Thames since 1894 and is one of the most recognisable landmarks in the world. Enjoy admission inside Tower Bridge without further payment.
+			</small_description>
+		
+			<Attraction_title>Tower Bridge</Attraction_title>
+		
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+		
+			<doing title="What you'll do">
+				<value_d>
+				    Operating as a working bridge for over 125 years, Tower Bridge offers numerous exhibitions detailing its history, a range of family-friendly experiences as well as a unique viewing experience of the River Thames from its iconic Glass Floors in the 42-meter high walkways.
+				    Tower Bridge is one of the most impressive structures and sites in the capital and has stood over the River Thames since 1894. As well as being one of the most recognisable landmarks in the world, it is one of the most visited attractions in London and remains a working bridge to this day. Visitors will also fall in love with the Tower Bridge Glass Floors and Victorian Engine Rooms.
+			    </value_d>
+			</doing>
+			
+			<includings title="What's included">
+				<including>
+					Stand over the Tower Bridge Glass Floor and view the bridge and passers below.					
+				</including>
+			</includings>
+			
+			<Reservations>
+				<value>
+				   You can book your spot up to 10 days in advance on the Go City Reservations Portal. You'll need your order/pass number(s) and the email you used to purchase.
+				   Please note:
+				   Groups of 15 people or more, must email bookings@towerbridge.org.uk with their preferred date and time of visit at least three working days in advance to secure a visit.
+				   Plans changed?
+				   In the Reservations Portal you can amend your booking up to 15 minutes prior to your reservation. Even if you’re running late, amending your original booking will help to secure a new timeslot and avoid any disappointment.
+				</value>
+			</Reservations>
+		
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					On the day, after the security/bag check, present your pass at the ticket desk for scanning and validation. Once your ticket has been validated, you will be issued with an entrance ticket. Please retain the ticket to gain admission to the Engine Rooms at the end of your visit.
+					In order to guarantee entry at your preferred time we recommend making a reservation via the Reservations Portal. Entry without a reservation will be subject to availability and you may need to wait for the next available timeslot.
+					Your pass will only grant you admission on the day of your reservation.
+					Shoulder bags and backpacks with maximum dimensions 45 x 35 x 20 cm are allowed. Suitcases, wheeled bags and oversized items will not be allowed in the Bridge.
+					Busy tip: Tower Bridge is busiest in the afternoon and at the weekend.
+				</Getting_in>
+			</Knowing_before>	
+						
+			<Note title="Please Note">
+				With your pass, you'll receive a 10% discount on purchases of £5 and more in the St Paul’s shop!
+				Non-flash photography for personal use inside the cathedral is welcomed outside service times. Filming, tripods, monopods, and selfie sticks are not permitted.
+			</Note>
+		
+			<Address title="Where you'll be">
+				Tower Bridge Rd, London, GB
+			</Address>
+			
+			<operating>
+				<Monday dayid="a9_d1"/>
+				<Tuesday dayid="a9_d2"/>
+				<Wednesday dayid="a9_d3"/>
+				<Thursday dayid="a9_d4"/>
+				<Friday dayid="a9_d5"/>
+				<Saturday dayid="a9_d6"/>
+				<Sunday dayid="a9_d7"/>
+
+				<openings>
+					<opening for="general">Jan 2, 2025 – Dec 23, 2025:
+					Monday to Sunday: 09:30 AM – 06:00 PM (Last entry: 05:00 PM)</opening>
+				</openings>
+
+				<closing>
+					<match_days>24 December 2025</match_days>
+					<match_days>25 December 2025</match_days>
+					<match_days>26 December 2025</match_days>
+				</closing>
+			</operating>
+
+			
+			<For_more title="Find out More">
+				For more information, visit the Tower Bridge website. 020 7403 3761
+			</For_more>
+			
+			<getting_there title="How to get there">
+				<Other>Tower Hill</Other>
+			</getting_there>
+			
+			<family_friendly>3</family_friendly>
+			<environment>indoors</environment>
+			<category>Historical and Cultural</category>
+			<Votes>
+			  <Vote>
+				<username>traveler10</username>
+				<stars>5</stars>
+			  </Vote>
+			</Votes>
+			<image>data:image/jpeg;base64,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</image>
+			
+		</Attraction>
+		
+			
+		
+		<Attraction id_Attr="id_at10" normal_value="22.00" unit_value="£" in_offer="of1 of2">
+			<URL>https://londonpass.com/en/london-attractions/Cutty-Sark</URL>
+		
+			<small_description>
+				The iconic Cutty Sark in Greenwich provides an immersive experience that's not to be missed. Climb aboard and discover the adventures of this historic ship and her crew.
+			</small_description>
+		
+			<Attraction_title>Cutty Sark</Attraction_title>
+		
+			<extra_attraction_info>
+			   <spending_time>Up to an hour (&lt;1hr)</spending_time>
+            </extra_attraction_info>
+		
+			<doing title="What you'll do">
+				<value_d>
+				    Delve into the adventures of the Cutty Sark and her crew in an immersive experience that brings her fascinating history to life. Follow in the footsteps of those who sailed her, explore interactive displays that evoke the sights, smells, and sounds of life at sea, enjoy sweeping views of the Thames, and walk right underneath the ship’s gleaming hull to touch a piece of world history.
+				</value_d>
+			</doing>
+			
+			<includings title="What's included">
+				<including>
+					Pay nothing at the door – simply show your pass.
+					Enjoy interactive displays.
+					Discover what life was like on board for the crew.					
+				</including>
+			</includings>
+		
+			<Knowing_before title="Know before you go">
+				<Getting_in>
+					Present your pass at the admissions desk.
+					To avoid disappointment, customers are strongly advised to check availability on the Cutty Sark's website.
+				</Getting_in>
+			</Knowing_before>	
+	 
+			<Address title="Where you'll be">
+				King William Walk, Greenwich, GB
+			</Address>
+			
+			<operating>
+				<Monday dayid="a10_d1"/>
+				<Tuesday dayid="a10_d2"/>
+				<Wednesday dayid="a10_d3"/>
+				<Thursday dayid="a10_d4"/>
+				<Friday dayid="a10_d5"/>
+				<Saturday dayid="a10_d6"/>
+				<Sunday dayid="a10_d7"/>
+
+				<openings>
+					<opening for="general"> May 12, 2025 – Jun 27, 2025:
+					Monday to Sunday: 10:00 AM – 05:00 PM (Last entry: 04:15 PM)
+					</opening>
+				</openings>
+
+				<closing>
+					<match_days>24 December</match_days>
+					<match_days>25 December</match_days>
+					<match_days>26 December</match_days>
+				</closing>
+			</operating>
+
+					
+					
+			<For_more title="Find out More">
+				If you're planning a Cutty Sark visit, you'll be pleased to know that Cutty Sark tickets can be purchased online or at the venue. Better yet, the Cutty Sark is one of the 100+ attractions accessible with The London Pass®, offering a convenient and cost-effective way to explore Cutty Sark and other landmarks.
+				020 8312 6608
+			</For_more>
+			
+			<getting_there title="How to get there">
+				<Train>Cutty Sark DLR</Train>
+			</getting_there>
+			
+			<family_friendly>3</family_friendly>
+			<environment>indoors</environment>
+			<category>Historical and Cultural, Nature and Outdoors</category>
+			<Votes>
+			  <Vote>
+				<username>traveler11</username>
+				<stars>5</stars>
+				<comment>Interactive and educational for all ages!</comment>
+			  </Vote>
+			</Votes>
+			<image>https://d290qd6hrjmipd.cloudfront.net/data/layout_image/2116_Naviguer%20%C3%A0%20travers%20l%27Histoire%20%C3%A0%20bord%20du%20Cutty%20Sark_square_1-1_xl.jpg?ver=1707397384</image>
+			
+		</Attraction>
+
+	</LondonAttractions>
+	
+	<must_sees ids= "id_at2 id_at6 id_at7 id_at9"/>
+	
+</London_Sightseeing>
